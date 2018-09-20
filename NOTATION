@@ -1,0 +1,14 @@
+The previous result is not that good since only using the original form cannot retrieve all candidate entities...
+and the top 10 is not that effective, which give rise to a low recall... and furtehr the worse result..
+
+using both original form and lower-cased form can result in: that only 7 do not have candidate entities..
+but in those with entities, still might be wrong...  using both 4095, merely using orginal form 3823
+
+but we need to boost the performance, hencing turning to Pershina...
+4438 / 4445 = 0.99842519685		3823 / 4445 = 0.860067491564		4094 / 4445 = 0.921034870641
+[[1184, 'Poul-Erik Hoyer-Larsen'], [1186, 'NY ISLANDERS'], [1351, 'OESTERSUND'], [1373, 'F.A. Challenge Cup'], [1377, 'N.IRELAND'], [1385, 'NY ISLANDERS'], [1385, 'NY ISLANDERS']]
+
+
+CONFLICT OH SHIT !!!!!
+DUNNO BUT..
+SHOULD PROBABLY RELY ON THAT
